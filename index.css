@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+    background: #f4f4f4;
+}
+
+h3 {
+    margin: 10px auto;
+    font-size: 20px;
+}
+
+ul {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-right: 5px;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    font-size: 20px;
+}
+
+button {
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    float: right;
+}
+
+header {
+    background-color: #1f88f4;
+    color: #ffffff;
+    padding: 5px 10px;
+    overflow: auto;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #1f88f4;
+    color: #ffffff;
+    padding: 5px 10px;
+    overflow: auto;
+}
+
+.total-score {
+    text-align: center;
+}
+
+.final-results {
+    display: flex;
+    justify-content: space-around;
+}
+
+.restart {
+    padding: 5px;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 40%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .pull-left, .pull-right {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    button {
+        padding: 5px;
+        border: 1px solid black;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 40%;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+
+    .restart {
+        padding: 5px;
+        border: 1px solid black;
+        font-size: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 60%;
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
